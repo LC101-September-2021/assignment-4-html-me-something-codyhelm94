@@ -2,9 +2,21 @@
 body {
 	width: 100%;
 	max-width: 1024px;
-	margin: 0 auto;
 	background-color: rgb(230, 190, 174);
 	font-size: 62.5%;
+}
+
+body{
+	margin:8px auto;
+	display: block; 
+}
+
+#mainHeading{
+	color:red
+}
+
+.funParagraph{
+	color:green
 }
 
 header,
