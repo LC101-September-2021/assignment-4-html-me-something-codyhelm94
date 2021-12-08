@@ -1,1 +1,133 @@
 /* Write your CSS here! */
+
+
+body{
+	margin:8px;
+	display: block; 
+}
+
+body {
+	width: 100%;
+	max-width: 1024px;
+	background-color: rgb(230, 190, 174);
+	font-size: 62.5%;
+}
+#mainHeading{
+	color:red
+}
+
+.funParagraph{
+	color:green
+}
+
+header,
+main,
+footer {
+	background-color: rgb(231, 216, 201);
+	font-size: 1.6em;
+}
+
+header {
+	padding: 1.875em 0;
+}
+
+header h1 {
+	text-align: center;
+}
+
+header h2 {
+    text-decoration: underline;
+	text-align: center;
+}
+
+h1, h2 {
+	margin: 0;
+}
+
+h1 {
+	font-size: 2.5em;
+}
+
+main h2 {
+	padding: 0.625em 0 0.625em 0.625em;
+    text-align: center;
+	text-decoration: underline;
+}
+
+section {
+	margin: 1.875em 0;
+}
+
+section:first-child {
+	margin-top: 0;
+}
+
+section:last-child {
+	margin-bottom: 0;
+}
+ul {
+	list-style-type: none;
+	margin-left: auto;
+	margin-right: auto;
+	width: 800px;
+	overflow: hidden;
+	background-color: #333;
+}
+  
+  li {
+	display: inline-table;
+	text-align: center ;
+}
+  
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+li a:hover {
+	background-color: #111;
+}
+
+p {
+	padding: 1.25em;
+}
+
+figure {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+figcaption {
+	font-style: italic;
+    text-align: center;
+}
+
+footer {
+	text-align: center;
+	padding: 3em;
+}
+
+footer p {
+	display: inline-block;
+}
+
+img {
+	width: 100%;
+	max-width: 100%;
+}
+
+@media screen and (max-width: 680px) {
+	nav ul li {
+		margin: 1em 0;
+		display: block;
+		font-size: 1em;
+	}
+	body {
+		font-size: 50%;
+	}
+}
